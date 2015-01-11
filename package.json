@@ -1,6 +1,7 @@
 {
  	"name": "calvinwoo",
 	"version": "0.0.0",
+	"main": "app.js",
 	"scripts": {
 		"start": "node app.js"
 	},
