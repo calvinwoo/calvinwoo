@@ -6,8 +6,17 @@ var app = express();
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
+var googleUa;
+if (process.env.NODE_ENV === 'production') {
+  googleUa = 'UA-58701348-2';
+} else {
+  googleUa = 'UA-58701348-1';
+}
+
 app.get('/', function (req, res) {
-  res.render('home');
+  res.render('home', {
+    googleUa: googleUa
+  });
 });
 
 // set the port of our application
