@@ -1,7 +1,6 @@
 body {
   font-family: "Helvetica Neue",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
   line-height: 1;
-  padding-top: 1rem;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -10,6 +9,7 @@ body {
 
 header {
   margin-bottom: 1rem;
+  padding-top: 2rem;
 }
 
 header h2 {
