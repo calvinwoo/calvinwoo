@@ -1,0 +1,32 @@
+body {
+  font-family: "Helvetica Neue",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height: 1;
+  padding-top: 1rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+header h2 {
+  font-weight: 600;
+}
+
+.experience ul {
+  margin-bottom: 0.5rem;
+}
+
+.experience li:not(:last-child) {
+  padding-bottom: 0.25rem;
+}
+
+.contact ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+}
+
+.contact li {
+  width: 40px;
+  font-size: 1.5rem;
+}
