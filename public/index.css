@@ -8,8 +8,16 @@ body {
   line-height: 1;
 }
 
+header {
+  margin-bottom: 1rem;
+}
+
 header h2 {
   font-weight: 600;
+}
+
+section {
+  margin-bottom: 1rem;
 }
 
 .experience ul {
